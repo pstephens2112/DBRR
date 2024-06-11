@@ -52,16 +52,10 @@ def generate_maze(rows, cols):
     return maze
 
 # Generate a 10x10 maze
-maze = generate_maze(15, 30)
+maze = generate_maze(17, 55)
 
-print('-' * 61)
+print('**** ' + '-' * 113 + ' ****')
 for row in maze:
-  print('|' + ' '.join(row) + '|')
-print('-' * 61)
+  print('**** | ' + ' '.join(row) + ' | ****')
+print('**** ' + '-' * 113 + ' ****')
 
-
-# COMMAND ----------
-
-print('_' * 21)
-for row in maze:
-  print('|' + ' '.join(row) + '|')
