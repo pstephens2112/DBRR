@@ -1,4 +1,10 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC ##### Note
+# MAGIC This code was generated bu Databricks Assistant (AI-generated)
+
+# COMMAND ----------
+
 
 import random
 ## Moving on
