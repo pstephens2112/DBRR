@@ -14,7 +14,7 @@ def generate_maze(rows, cols):
     start_col = random.randint(0, cols - 1)
 
     # Mark the starting cell as visited
-    maze[start_row][start_col] = "S"
+    maze[start_row][start_col] = " "
     stack.append((start_row, start_col))
 
     # Depth-first search algorithm
@@ -47,11 +47,21 @@ def generate_maze(rows, cols):
             stack.pop()
 
     # Mark the last cell as the exit
-    maze[rows - 1][cols - 1] = "E"
+    maze[rows - 1][cols - 1] = " "
 
     return maze
 
 # Generate a 10x10 maze
-maze = generate_maze(10, 10)
-print(maze)
+maze = generate_maze(15, 30)
 
+print('-' * 61)
+for row in maze:
+  print('|' + ' '.join(row) + '|')
+print('-' * 61)
+
+
+# COMMAND ----------
+
+print('_' * 21)
+for row in maze:
+  print('|' + ' '.join(row) + '|')
