@@ -5,6 +5,11 @@
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC SELECT * FROM SomeTable
+
+# COMMAND ----------
+
 
 import random
 ## Moving on
