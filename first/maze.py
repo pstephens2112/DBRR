@@ -1,6 +1,6 @@
 @@ -0,0 +1,53 @@
 +import random
-+
++## Moving on
 +def generate_maze(rows, cols):
 +    # Create a grid with all walls
 +    maze = [["#" for _ in range(cols)] for _ in range(rows)]
